@@ -15,3 +15,44 @@
 .logo {
     width: 100%;
 }
+
+h1 {
+    padding: 50px 0px 20px 20px;
+}
+
+.card {
+    box-shadow: $box-shadow;
+    border: none !important;
+    border-radius: $border-radius !important;
+}
+
+.card-img-top {
+    border-radius: $border-radius-img !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    border: none !important;
+    margin-top: 10px;
+    background-color: map-get($btn, 'button-background-col') !important;
+    color: map-get($btn, 'button-font-col') !important;
+}
+
+.footer__container {
+  width: 100%;
+  height: 50px;
+  background-color: $primary-color;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__text {
+    color: $secondary-color;
+    margin-bottom: 0px;
+}
